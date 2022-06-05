@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+	<?php
+		include "../config.php";
+		session_start();
+	?>
+	
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!-- Script code for Sweet Alert -->
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+		
+	</head>
+	<body>
+	<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #6B5B95;">
+	  <a class="navbar-brand" href="index">EZCollege Faculty</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+		<ul class="navbar-nav">
+			<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			  Academics
+			</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			  <a class="dropdown-item" href="attendancepost">Attendance</a>
+			  <div class="dropdown-divider"></div>
+			  <a class="dropdown-item" href="modifyattendancepost">Modify Attendance</a>
+			  <a class="dropdown-item" href="viewstudents">View Students</a>
+			</div>
+		  </li>
+		  
+		  <li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			  Examination
+			</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			  <a class="dropdown-item" href="markpost">Marks</a>
+			  <a class="dropdown-item" href="examination">Examination/Test</a>
+			  <a class="dropdown-item" href="evaluate">Evaluate Test</a>
+			  <div class="dropdown-divider"></div>
+			  <a class="dropdown-item" href="modifymarkpost">Modify Marks</a>
+			</div>
+		  </li>
+		  <!--<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			  Finance
+			</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			  <a class="dropdown-item" href="#">Academic Fee Due</a>
+			  <a class="dropdown-item" href="#">Fines</a>
+			  <a class="dropdown-item" href="#">Library Fee</a>
+			  <a class="dropdown-item" href="#">Facilities Fee</a>
+			</div>
+		  </li>-->
+		  <li class="nav-item">
+			<a class="nav-link" href="timetable">Timetable</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="curriculum">Curriculum</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="neweduportal">EduPortal</a>
+		  </li>
+		  
+		</ul>
+		<ul class="navbar-nav ml-auto">
+			  <li class="nav-item">
+				<a class="btn btn-outline-danger" href="logout">Log Out</a>
+			  </li>
+			  </ul>
+	  </div>
+</nav>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+</html>
